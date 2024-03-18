@@ -1,0 +1,17 @@
+org/example/igotthese/data/entity/QDemandSeal.class
+org/example/igotthese/data/repository/impl/PostRepositoryImpl.class
+org/example/igotthese/data/entity/HoldingSeal$HoldingSealBuilder.class
+org/example/igotthese/data/entity/QHoldingSeal.class
+org/example/igotthese/data/entity/QPost.class
+org/example/igotthese/data/entity/Pokemon$PokemonBuilder.class
+org/example/igotthese/data/entity/SupplySeal.class
+org/example/igotthese/data/entity/DemandSeal$DemandSealBuilder.class
+org/example/igotthese/data/entity/Post$PostBuilder.class
+org/example/igotthese/data/entity/QPokemon.class
+org/example/igotthese/data/entity/HoldingSeal.class
+org/example/igotthese/data/entity/QSupplySeal.class
+org/example/igotthese/data/entity/Post.class
+org/example/igotthese/data/entity/Pokemon.class
+org/example/igotthese/data/entity/SupplySeal$SupplySealBuilder.class
+org/example/igotthese/data/entity/DemandSeal.class
+org/example/igotthese/data/repository/PostQuerydslRepository.class
