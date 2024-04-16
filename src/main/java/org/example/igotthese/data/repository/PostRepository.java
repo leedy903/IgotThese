@@ -30,7 +30,7 @@ public interface PostRepository extends JpaRepository<Post, Long>, PostQuerydslR
             + "join supply_seal "
             + "on post.post_id = supply_seal.post_id "
             + "where supply_seal.pokemon_id = :pokemon_id "
-            + "and st_contains(st_buffer(st_pointfromtext(:point, 4326), 500000), post.location) "
+            + "and st_contains(st_buffer(st_pointfromtext(:point, 4326), 5000), post.location) "
             + "order by st_distance_sphere(st_pointfromtext(:point, 4326), post.location), post.modified_at", nativeQuery = true)
     List<Post> findPostBySearch(@Param("pokemon_id") Long pokemon_id, @Param("point") String point);
 

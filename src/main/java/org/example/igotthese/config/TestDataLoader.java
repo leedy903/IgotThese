@@ -67,11 +67,11 @@ public class TestDataLoader {
         }
 
         private Double getRandomLatitude() {
-            return Math.random() * 180 - 90.0;
+            return Math.random() * (39 - 33 + 1) + 33.0;
         }
 
         private Double getRandomLongitude() {
-            return Math.random() * 360 - 180.0;
+            return Math.random() * (132 - 124 + 1) + 124.0;
         }
 
         private List<Long> getRandomIds(int max_size, int max_id) {
